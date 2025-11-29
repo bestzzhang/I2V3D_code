@@ -17,12 +17,10 @@ conda install pytorch==2.3.1 torchvision==0.18.1 pytorch-cuda=12.1 -c pytorch -c
 pip install -r requirements.txt
 ```
 
-## TODO List
-- [x] Add guidance for build custimized scene in blender
-- [x] Upload examples 
-
 ## Usage
-We provide multiple examples in [bestzzhang/I2V3D_examples](https://huggingface.co/datasets/bestzzhang/I2V3D_examples/tree/main)
+- For building custimized scene in blender, we provide instruction and template/example blender files inside blender
+- We provide multiple examples in [bestzzhang/I2V3D_examples](https://huggingface.co/datasets/bestzzhang/I2V3D_examples/tree/main)
+
 ```
 # Optional (download our examples and trained Lora)
 huggingface-cli download bestzzhang/I2V3D_examples --local-dir ./static --repo-type dataset
