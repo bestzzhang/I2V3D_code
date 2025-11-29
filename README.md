@@ -1,4 +1,4 @@
-# I2V3D: Controllable image-to-video generation with 3D guidance
+# I2V3D: Controllable image-to-video generation with 3D guidance (ICCV 25)
 
 ![alt text](teaser.jpg)
 
@@ -18,7 +18,7 @@ pip install -r requirements.txt
 ```
 
 ## TODO List
-- [ ] Add guidance for build custimized scene in blender
+- [x] Add guidance for build custimized scene in blender
 - [x] Upload examples 
 
 ## Usage
